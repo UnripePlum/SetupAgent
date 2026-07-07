@@ -1,8 +1,5 @@
 <div align="center">
-<!-- LOGO: upload the app icon via a GitHub comment (drag it into a new issue's box) to get a
-     https://github.com/user-attachments/assets/... URL, then paste it as the src below.
-<a href="https://github.com/UnripePlum/SetupAgent/releases"><img src="PASTE_ICON_ATTACHMENT_URL" width="200" height="200" alt="Setup Agent" align="center"/></a>
--->
+<a href="https://github.com/UnripePlum/SetupAgent/releases"><img src="https://github.com/user-attachments/assets/4e6819d2-4894-4c26-a4e3-439569b2c8d8" width="200" height="200" alt="Setup Agent" align="center"/></a>
 
 <h2>Setup Agent</h2>
 <p>Launch and arrange your apps, browser, and terminal — hands-free — with a Korean wake word.</p>
