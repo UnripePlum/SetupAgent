@@ -61,10 +61,6 @@ Open **Settings** from the menu bar (gear icon) to register wake-word models, bu
 - **macOS 14 (Sonoma) or later** — Apple Silicon and Intel.
 - Requires **Microphone** and **Accessibility** permissions.
 
-## Updates
-
-Setup Agent updates itself via [Sparkle](https://sparkle-project.org): it checks this repository's release feed, downloads the new signed &amp; notarized DMG, verifies its signature, and installs it in place. You can trigger a check any time from **Check for Updates…**.
-
 ## Support
 
 Found a bug or have a request? [Open an issue](https://github.com/UnripePlum/SetupAgent/issues).
