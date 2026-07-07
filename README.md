@@ -40,7 +40,7 @@
 - **Menu bar native** — no Dock icon, no clutter; live status right in the menu bar.
 - **Signed & notarized** — Developer ID signed and Apple-notarized, so it opens without a Gatekeeper warning.
 - **Automatic updates** — a built-in updater installs new versions for you (or check manually any time).
-- **Bilingual UI** — English and 한국어.
+- **Bilingual UI** — English and Korean.
 
 ## Installation
 
