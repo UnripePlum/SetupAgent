@@ -2,7 +2,7 @@
 <a href="https://github.com/UnripePlum/SetupAgent/releases"><img src="https://github.com/user-attachments/assets/4e6819d2-4894-4c26-a4e3-439569b2c8d8" width="200" height="200" alt="Setup Agent" align="center"/></a>
 
 <h2>Setup Agent</h2>
-<p>Launch and arrange your apps, browser, and terminal — hands-free — with a Korean wake word.</p>
+<p>Launch and arrange your apps, browser, and terminal — hands-free — with a wake word.</p>
 
 <a href="https://github.com/UnripePlum/SetupAgent/releases/latest"><img src="https://img.shields.io/badge/⬇%20Download-macOS%2014+-2563EB?style=for-the-badge&logo=apple&logoColor=white" alt="Download for macOS"/></a><br/>
 <sub>
@@ -23,7 +23,7 @@
 
 ## About Setup Agent
 
-**Setup Agent** is a macOS menu bar app that listens for a Korean wake word — like **"자비스"** or **"지니야"** — and instantly launches and arranges the apps, browser tabs, and terminal you need. Set up a preset once, then bring up your whole workspace by voice, without touching the keyboard. It runs quietly from the menu bar and keeps itself up to date automatically.
+**Setup Agent** is a macOS menu bar app that listens for a wake word you choose and instantly launches and arranges the apps, browser tabs, and terminal you need. Set up a preset once, then bring up your whole workspace by voice, without touching the keyboard. It runs quietly from the menu bar and keeps itself up to date automatically.
 
 <!-- Add a screenshot: drag an image into a GitHub issue to host it, copy the URL, and drop it here.
 <div align="center">
@@ -33,7 +33,7 @@
 
 ## Key Features
 
-- **Wake-word activation** — listens for your chosen Korean wake word and fires a preset on cue.
+- **Wake-word activation** — listens for your chosen wake word and fires a preset on cue.
 - **App & window orchestration** — launches a set of apps, browser, and terminal, and places each window on the display you want.
 - **Presets** — define what a wake word opens once, then reuse it every day.
 - **Double-tap / clap trigger** — optional: double-tap the MacBook body or clap near the mic to open a listening window.
