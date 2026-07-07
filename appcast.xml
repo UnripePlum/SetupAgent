@@ -8,7 +8,7 @@
         <item>
             <title>Version 1.0.2</title>
             <pubDate>Tue, 07 Jul 2026 16:48:01 +0000</pubDate>
-            <sparkle:version>1000002</sparkle:version>
+            <sparkle:version>5</sparkle:version>
             <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
             <description><![CDATA[
 ### Fixed
@@ -21,7 +21,7 @@
         <item>
             <title>Version 1.0.1</title>
             <pubDate>Tue, 07 Jul 2026 14:38:45 +0000</pubDate>
-            <sparkle:version>1000001</sparkle:version>
+            <sparkle:version>4</sparkle:version>
             <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
             <description><![CDATA[
 ### Changed
