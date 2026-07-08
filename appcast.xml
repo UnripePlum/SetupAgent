@@ -6,6 +6,34 @@
         <description>Setup Agent release updates</description>
         <language>en</language>
         <item>
+            <title>Version 1.0.4</title>
+            <pubDate>Wed, 08 Jul 2026 16:45:51 +0000</pubDate>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+            <description><![CDATA[
+### Added
+- Launch targets now follow a "one target, one window" model. When a target has
+  several URLs or commands, they open together as tabs or split panes inside that
+  one window instead of scattering across the screen. Want another window? Just
+  add the same app again.
+- New **Sensor** settings tab for tuning wake-word detection.
+
+### Changed
+- Wake-word listening is now pinned to your built-in microphone, so plugging in
+  or switching audio devices no longer interrupts detection.
+- Terminal commands now run in an interactive login shell, so your `PATH`,
+  aliases, and shell configuration apply just like they do in a normal terminal.
+
+### Fixed
+- Launched windows now land where they should — several placement glitches with
+  tabs, splits, and duplicate targets are fixed.
+- Setup Agent now asks for the automation and launch permissions it needs right
+  from the model settings screen, instead of a target quietly failing to open
+  the first time.
+            ]]></description>
+            <enclosure url="https://github.com/UnripePlum/SetupAgent/releases/download/v1.0.4/SetupAgent-1.0.4.dmg" sparkle:edSignature="fUEm6hD20ocnLW302x/eEGCTVHBdkchqk8hBr/yF5S1pr1kLkQ0FvJv5DEwHnWWUU6QuxctSglubvEfncYUDBA==" length="55636494" type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Version 1.0.3</title>
             <pubDate>Wed, 08 Jul 2026 01:20:25 +0000</pubDate>
             <sparkle:version>6</sparkle:version>
