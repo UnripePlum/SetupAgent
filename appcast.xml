@@ -6,6 +6,32 @@
         <description>Setup Agent release updates</description>
         <language>en</language>
         <item>
+            <title>Version 1.0.3</title>
+            <pubDate>Wed, 08 Jul 2026 01:20:25 +0000</pubDate>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+            <description><![CDATA[
+### Added
+- First-launch onboarding now surfaces the microphone and accessibility
+  permission prompts automatically. Previously, because Setup Agent lives only
+  in the menu bar, a fresh install opened no window and you had to find Settings
+  yourself before it could start listening.
+- The installer disk image now opens a styled drag-to-Applications window, so
+  installing is a single drag.
+
+### Changed
+- Wake-word models are now stored in an app-managed location. Models saved by an
+  earlier version are migrated automatically the first time you launch this
+  build — no action needed.
+
+### Fixed
+- After updating, macOS may ask you to re-grant Microphone, Accessibility, and
+  Automation permissions once. This is expected: the app now uses a stable new
+  identity, and the new onboarding will walk you through granting them.
+            ]]></description>
+            <enclosure url="https://github.com/UnripePlum/SetupAgent/releases/download/v1.0.3/SetupAgent-1.0.3.dmg" sparkle:edSignature="TMCMH/YB8R9KblTOFodxEqUAemqtOBGco3x5l1MZYM/MR36rJ87hAhlczxsrGX9Vc0jbEWXdtYxtNTQpcJLcDA==" length="55623606" type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Version 1.0.2</title>
             <pubDate>Tue, 07 Jul 2026 16:48:01 +0000</pubDate>
             <sparkle:version>5</sparkle:version>
