@@ -6,6 +6,38 @@
         <description>Setup Agent release updates</description>
         <language>en</language>
         <item>
+            <title>Version 1.0.5</title>
+            <pubDate>Fri, 10 Jul 2026 20:17:12 +0000</pubDate>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
+            <description><![CDATA[
+### Added
+- **Grok** joins the built-in launch-target presets.
+
+### Changed
+- **Stop now closes your scene.** Pressing Stop used to leave every launched
+  window behind with no way to clean them up later; it now tears the open scene
+  down the same way a Replace does.
+- The **Replace** scene mode is now labeled beta in Settings (it stays the
+  default).
+
+### Fixed
+- Launched terminal windows no longer end up on a hidden desktop Space or the
+  wrong display — they open on the Space you are looking at and land at their
+  configured position, including on multi-display setups.
+- **Ghostty**: repeated launches no longer keep adding split panes to your own
+  windows, and scene windows now close cleanly on Replace.
+- Closing a scene no longer hangs behind a terminal's "terminate running
+  processes?" confirmation — the prompt is answered automatically.
+- An app that was already running when a scene launched it (music players,
+  chat apps, …) is no longer left behind: Replace and Stop now close just the
+  window the scene used, without ever quitting the app itself.
+- One unlaunchable target no longer breaks the rest of its scene — the other
+  apps still launch, get tracked, and are cleaned up on the next Replace.
+            ]]></description>
+            <enclosure url="https://github.com/UnripePlum/SetupAgent/releases/download/v1.0.5/SetupAgent-1.0.5.dmg" sparkle:edSignature="ayocc+Be8oKBlTqXeqCb7CyMR6d7tRbWoPthmp1MDXdAGvUn6zdpahWYiWqH2ksidXLsZfyaIQ+yp3h1YKJHCg==" length="57647087" type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Version 1.0.4</title>
             <pubDate>Wed, 08 Jul 2026 16:45:51 +0000</pubDate>
             <sparkle:version>7</sparkle:version>
