@@ -6,6 +6,25 @@
         <description>Setup Agent release updates</description>
         <language>en</language>
         <item>
+            <title>Version 1.0.6</title>
+            <pubDate>Sat, 11 Jul 2026 09:12:04 +0000</pubDate>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>1.0.6</sparkle:shortVersionString>
+            <description><![CDATA[
+### Fixed
+- **Game launchers now place and close correctly.** Apps whose visible window is
+  owned by a spawned helper or bootstrapper process — Steam (via "Steam Helper")
+  and League of Legends (via "Riot Client") — used to open at their own remembered
+  spot instead of the position you configured, and were left running when the
+  scene changed. Their window is now tracked and positioned, and the whole app is
+  torn down on the next Replace or Stop.
+- Closing a scene no longer hangs behind an app's "Are you sure you want to quit?"
+  confirmation (ChatGPT and other Electron apps): a scene app this app launched is
+  now force-quit, which skips the prompt.
+            ]]></description>
+            <enclosure url="https://github.com/UnripePlum/SetupAgent/releases/download/v1.0.6/SetupAgent-1.0.6.dmg" sparkle:edSignature="7mjodqyVlHfdm8jPUyv+/lJdt6/idngjHHd79DWG+NKeJQRsyBgBZ6wkJ4QosH/FkJqS9c1CpBu2xLrD86NFAg==" length="57674151" type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Version 1.0.5</title>
             <pubDate>Fri, 10 Jul 2026 20:17:12 +0000</pubDate>
             <sparkle:version>8</sparkle:version>
